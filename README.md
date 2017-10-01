@@ -1,4 +1,4 @@
-## Programming Styleguides
+## Programming Style Guides
 
 
-* [C++ Style Guide](cpp_styleguide.md)
+* [C++ Style Guide](cpp_style_guide.md)

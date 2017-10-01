@@ -1,4 +1,4 @@
-## C++ StyleGuide
+## C++ Style Guide
 
 
 ### Default Arguments
