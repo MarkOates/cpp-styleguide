@@ -1,4 +1,4 @@
-## Mark Oates' C++ StyleGuide
+## C++ StyleGuide
 
 
 ### Default Arguments
