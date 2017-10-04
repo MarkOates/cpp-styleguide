@@ -28,7 +28,7 @@ For more context on this rule, see http://llvm.org/docs/CodingStandards.html#inc
 
 ### Default Arguments
 
-Unlike inline definitions and declarations which include spaces, default arguments should not include spaces surrounding their assignment operators `=`:
+Default arguments should not include spaces surrounding their assignment operators `=`:
 
 ```cpp
 // correct:
