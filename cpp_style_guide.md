@@ -1,6 +1,6 @@
 ## C++ Style Guide
 
-### Header Files
+### Listing Header Files
 
 With one exception, header files should always be listed in alphabetical order without grouping.  Files that are deeper in a directory tree should appear closer to the top.  The absolute minimum number of required header files should be included, and forward-declarations are preferable over include files when possible.
 
