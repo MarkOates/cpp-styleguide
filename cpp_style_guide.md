@@ -52,4 +52,53 @@ public:
 };
 ```
 
+### Class Definitions
 
+```cpp
+class ClassName
+{
+private:
+   // enums
+   enum possible_values
+   {
+      VALUE_UNDEF = 0,
+      POSSIBLE_VALUE_1,
+      POSSIBLE_VALUE_2,
+      VALUE_MAX,
+   };
+
+   // static constants
+   // static variables
+   int next_id;
+   // static functions
+
+   // internal functions (not for public exposure)
+   int __internal_function();
+
+   // member variables variables (initial values declared in the initialization list)
+   int parameter;
+
+public:
+   // constructors, destructor
+   ClassName(int parameter);
+   ~ClassName();
+
+   // set_* functions (or other mutation functions)
+   bool set_parameter(int parameter);
+
+   // get_* functions (non mutating getters for direct parameter values)
+   int get_parameter() const;
+
+   // state querying functions (non-mutating, non direct parameter queries)
+   bool is_parameter(int parameter) const;
+
+   // operators
+   bool operator==(const ClassName &other) const;
+
+   // static pool collection functions (will need to find a new pattern for this)
+   static bool add_member();
+   static bool remove_member();
+   static bool destroy_member();
+   static bool find_member();
+};
+```
